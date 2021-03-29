@@ -1,0 +1,90 @@
+return model =
+  name: 'Aries'
+  level: 7
+  model: 4
+  size: 4.5
+  specs:
+    shield:
+      capacity: [800,800]
+      reload: [17,17]
+    generator:
+      capacity: [350,350]
+      reload: [175,175]
+    ship:
+      mass: 800
+      speed: [40,40]
+      rotation: [20,20]
+      acceleration: [150,150]
+  bodies:
+    arm:
+      section_segments: 12
+      angle: 0
+      offset:
+        x: 30
+        y: -20
+        z: 0
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0]
+        y: [-40,-35,-20,-15,-10,10,60,70,85,90,85]
+        z: [0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,10,10,10,12,12,12,12,12,12,0]
+      height: [0,10,12,12,12,12,8,12,11,10,0]
+      texture: [4,63,4,4,4,4,4,63,3,17]
+      propeller: true
+    cockpit:
+      section_segments: 20
+      offset:
+        x: 0
+        y: -20
+        z: 0
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0]
+        y: [-50,-35,-25,-15,0,15,25,65,70]
+        z: [0,0,0,0,0,0,0,0,0]
+      width: [0,24,25,25,25,25,25,25,0]
+      height: [0,24,25,25,25,25,25,25,0]
+      texture: [1,1,1,1,1,1,1,1]
+      angle:0
+    topcockpit:
+      section_segments: 12
+      offset:
+        x: 0
+        y: -13
+        z: 5
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-30,-15,0,20,40]
+        z: [-10,-6,0,5,16]
+      width: [0,12,13,11,0]
+      height: [0,10,12,10,0]
+      texture: [9,9,9,4]
+    bumpers:
+      section_segments: 12
+      offset:
+        x: 8
+        y: 50
+        z: 0
+      position:
+        x: [10,10,10,10,10,10,10]
+        y: [-85,-80,-40,0,20,50,45]
+        z: [0,0,0,0,0,0,0]
+      width: [0,15,15,15,15,10,0]
+      height: [0,19,20,20,20,20,0]
+      texture: [4,63,10,4,3,17]
+      angle: 0
+      propeller:true
+  wings: 
+   side_joins:
+    doubleside:true
+    offset:
+      x: 0
+      y: -40
+      z: 0
+    length: [40,30]
+    width: [50,30,20]
+    angle: [0,0]
+    position: [0,0,10]
+    texture: [3,63]
+    bump:
+      position: -0
+      size: 20

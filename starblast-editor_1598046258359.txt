@@ -1,0 +1,206 @@
+xPos = 0
+yPos = 70
+zPos = 0
+
+return model =
+  name: 'Dreadnought Engines'
+  level: 7
+  model: 1
+  size: 1
+  specs:
+    shield:
+      capacity: [1000,1000]
+      reload: [1,1]
+    generator:
+      capacity: [140,140]
+      reload: [50,50]
+    ship:
+      mass: 2000
+      speed: [80,90]
+      rotation: [50,80]
+      acceleration: [90,120]
+  bodies:
+#main body structure
+    Mbody1:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 0+xPos
+        y: 20+yPos
+        z: 0+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-105,-105,-105,0,0,100,100]
+        z: [0,0,0,0,0,0,0]
+      width: [0,40,40,40,90,90,0]
+      height: [0,30,33,35,43,43,0]
+      texture: [1,1,1,2,3,4]
+      angle:0
+      vertical:false
+    Mbody2:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 23+xPos
+        y: -40+yPos
+        z: 0+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-105,-105,-105,0,10,60,60]
+        z: [0,0,0,0,0,0,0]
+      width: [0,23,23,23,33,33,0]
+      height: [0,23,23,23,33,33,0]
+      texture: [1,1,1,2,3,4]
+      angle:0
+      vertical:false
+    Mbody3:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 0+xPos
+        y: -161+yPos
+        z: 0+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-95,-95,-95,9,10,50,50]
+        z: [0,0,0,0,0,0,0]
+      width: [0,65,65,65,73,73,0]
+      height: [0,39,39,43,43,43,0]
+      texture: [1,1,1,4,3,4]
+      angle:180
+      vertical:false
+    Mbody4:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 50+xPos
+        y: 125+yPos
+        z: 0+zPos
+      position:
+        x: [6,6,6,6,0,0,0]
+        y: [-45,-45,-45,0,0,60,60]
+        z: [0,0,0,0,0,0,0]
+      width: [0,26,26,26,34,34,0]
+      height: [0,26,26,26,34,34,0]
+      texture: [1,1,1,1,1,1]
+      angle:180
+      vertical:false
+      propeller:false
+    Mbody5:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 50+xPos
+        y:30+yPos
+        z: 14+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-45,-45,-45,0,0,20,20]
+        z: [0,0,0,0,0,0,0]
+      width: [0,26,26,26,30,30,0]
+      height: [0,16,16,16,20,20,0]
+      texture: [1,1,1,1,1,1]
+      angle:90
+      vertical:false
+      propeller:false
+    Mbody6:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 40+xPos
+        y:-130+yPos
+        z: 10+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-45,-45,-45,0,0,20,20]
+        z: [0,0,0,0,0,0,0]
+      width: [0,26,26,26,30,30,0]
+      height: [0,16,16,16,20,20,0]
+      texture: [1,1,1,1,1,1]
+      angle:180
+      vertical:false
+      propeller:false
+    Mbody7:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 52+xPos
+        y:-10+yPos
+        z: -6+zPos
+      position:
+        x: [0,0,0,0,8,8,8]
+        y: [-45,-45,-45,0,0,70,70]
+        z: [0,0,0,0,0,0,0]
+      width: [0,10,10,10,12,12,0]
+      height: [0,10,10,10,12,12,0]
+      texture: [1,1,1,1,1,1]
+      angle:180
+      vertical:false
+      propeller:false
+    Mbody8:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 26+xPos
+        y:80+yPos
+        z: 27+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-45,-45,-45,0,0,70,70]
+        z: [0,0,0,0,0,0,0]
+      width: [0,10,10,10,18,16,0]
+      height: [0,10,10,10,12,12,0]
+      texture: [1,1,1,1,1,1]
+      angle:0
+      vertical:false
+      propeller:false
+#details&shit
+    det1:
+      section_segments: [0,40,95,150,180]
+      offset:
+        x: -47
+        y: -150
+        z: 0
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-70,-70,10,50,70]
+        z: [0,0,0,0,0,0]
+      width: [0,7,20,23,7]
+      height: [0,15,20,22.1,10]
+      texture: [1]
+      angle:0
+    det2:
+      section_segments: [0,40,95,150,180]
+      offset:
+        x: -64
+        y: 160
+        z: 0
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-70,-70,10,60,60]
+        z: [0,0,0,0,0,0]
+      width: [0,7,20,23,0]
+      height: [0,15,20,22.1,0]
+      texture: [1]
+      angle:0
+#engines
+    top_propulsor:
+      section_segments: 14
+      offset:
+        x: 44+xPos
+        y: 95+yPos
+        z:0+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-20,-15,0,10,21,26,27,79,80,75]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,15,20,21,21,21,19,18,15,0]
+      height: [0,15,20,21,21,21,19,18,15,0]
+      texture: [4,63,2,3,4,17,13,63,17]
+      propeller: true
+    side_propulsors:
+      section_segments: 14
+      offset:
+        x: 67+xPos
+        y: 90+yPos
+        z: -10+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-20,-15,0,10,21,26,27,79,80,75]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,14,14,14,14,14,14,12,10,0]
+      height: [0,14,14,14,14,14,14,12,10,0]
+      texture: [4,63,2,3,4,17,12,63,17]
+      propeller: true

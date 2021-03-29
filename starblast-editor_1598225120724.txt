@@ -1,0 +1,865 @@
+xPos =0
+yPos = 90
+zPos = 0
+
+return model =
+  name: 'Dreadnought Engines'
+  level: 7
+  model: 1
+  size: 1
+  specs:
+    shield:
+      capacity: [1000,1000]
+      reload: [1,1]
+    generator:
+      capacity: [140,140]
+      reload: [50,50]
+    ship:
+      mass: 2000
+      speed: [80,90]
+      rotation: [50,80]
+      acceleration: [90,120]
+  bodies:
+#main body structure1
+    Mbody1:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 0+xPos
+        y: 20+yPos
+        z: 0+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-105,-105,-105,0,0,100,100]
+        z: [0,0,0,0,0,0,0]
+      width: [0,40,40,40,90,90,0]
+      height: [0,30,33,35,43,43,0]
+      texture: [1,1,1,2,3,4]
+      angle:0
+      vertical:false
+    Mbody2:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 27+xPos
+        y: -40+yPos
+        z: 0+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-105,-105,-105,0,10,60,60]
+        z: [0,0,0,0,0,0,0]
+      width: [0,23,23,23,33,33,0]
+      height: [0,23,23,23,33,33,0]
+      texture: [1,1,1,2,3,4]
+      angle:0
+      vertical:false
+    Mbody3:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 0+xPos
+        y: -161+yPos
+        z: 0+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-95,-95,-95,9,10,50,50]
+        z: [0,0,0,0,0,0,0]
+      width: [0,65,65,65,73,73,0]
+      height: [0,39,39,43,43,43,0]
+      texture: [1,1,1,4,3,4]
+      angle:180
+      vertical:false
+    Mbody4:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 50+xPos
+        y: 125+yPos
+        z: 0+zPos
+      position:
+        x: [6,6,6,6,0,0,0]
+        y: [-45,-45,-45,0,0,60,60]
+        z: [0,0,0,0,0,0,0]
+      width: [0,26,26,26,34,34,0]
+      height: [0,26,26,26,34,34,0]
+      texture: [1,1,1,1,1,1]
+      angle:180
+      vertical:false
+      propeller:false
+    Mbody5:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 50+xPos
+        y:30+yPos
+        z: 14+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-45,-45,-45,0,0,20,20]
+        z: [0,0,0,0,0,0,0]
+      width: [0,26,26,26,30,30,0]
+      height: [0,16,16,16,20,20,0]
+      texture: [1,1,1,1,1,1]
+      angle:90
+      vertical:false
+      propeller:false
+    Mbody6:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 40+xPos
+        y:-130+yPos
+        z: 10+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-45,-45,-45,0,0,20,20]
+        z: [0,0,0,0,0,0,0]
+      width: [0,26,26,26,30,30,0]
+      height: [0,16,16,16,20,20,0]
+      texture: [1,1,1,1,1,1]
+      angle:180
+      vertical:false
+      propeller:false
+    Mbody7:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 52+xPos
+        y:-10+yPos
+        z: -6+zPos
+      position:
+        x: [0,0,0,0,8,8,8]
+        y: [-45,-45,-45,0,0,70,70]
+        z: [0,0,0,0,0,0,0]
+      width: [0,10,10,10,12,12,0]
+      height: [0,10,10,10,12,12,0]
+      texture: [1,1,1,1,1,1]
+      angle:180
+      vertical:false
+      propeller:false
+    Mbody8:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 26+xPos
+        y:80+yPos
+        z: 27+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-45,-45,-45,0,0,70,70]
+        z: [0,0,0,0,0,0,0]
+      width: [0,10,10,10,18,16,0]
+      height: [0,10,10,10,12,12,0]
+      texture: [1,1,1,1,1,1]
+      angle:0
+      vertical:false
+      propeller:false
+#Main body 2
+    mbody1:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 0+xPos
+        y: -320+yPos
+        z: 0+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-105,-105,-105,0,0,100,100]
+        z: [0,0,0,0,0,0,0]
+      width: [0,40,40,40,60,60,0]
+      height: [0,20,20,20,35,36,0]
+      texture: [1,1,1,2,3,4]
+      angle:0
+      vertical:false
+    mbody2:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 20+xPos
+        y: -300+yPos
+        z: 0+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-105,-105,-105,0,0,100,100]
+        z: [0,0,0,0,0,0,0]
+      width: [0,40,40,40,60,60,0]
+      height: [0,20,20,20,25,25,0]
+      texture: [1,1,1,2,3,4]
+      angle:0
+      vertical:false
+#details&shit
+    det1:
+      section_segments: [0,40,95,150,180]
+      offset:
+        x: -27+xPos
+        y: -30+yPos
+        z: 10+zPos
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-40,-40,-40,50,70]
+        z: [0,0,0,0,0,0]
+      width: [0,7,20,23,7]
+      height: [0,15,20,22.1,10]
+      texture: [1]
+      angle:0
+    det2:
+      section_segments: [0,40,95,150,180]
+      offset:
+        x: -63+xPos
+        y: 99+yPos
+        z: 0+zPos
+      position:
+        x: [0,-4,-2,0,0,0]
+        y: [-40,-40,10,60,60]
+        z: [0,0,0,0,0,0]
+      width: [0,11,20,23,0]
+      height: [0,15,20,22.1,0]
+      texture: [1]
+      angle:0
+    det3:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 20+xPos
+        y: 50+yPos
+        z: 19.2+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0,0]
+        y: [-180,-180,-180,-70,-50,0,30,40,45,50,50]
+        z: [0,0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,5,10,10,10,10,10,10,10,10,0,0]
+      height: [0,5,10,10,10,10,10,10,10,10,0,0]
+      texture: [4]
+    det4:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 56+xPos
+        y: 110+yPos
+        z: 7+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0,0]
+        y: [-82,-81,-75,-70,-50,0,30,40,45,50,50]
+        z: [0,0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,30,30,30,30,30,30,30,30,30,0,0]
+      height: [0,4,20,20,20,20,20,20,20,20,0,0]
+      texture: [2,2,2,2,2,2,2,2,2]
+    det5:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 0+xPos
+        y: 130+yPos
+        z: 7+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0,0]
+        y: [-82,-81,-75,-70,-50,0,30,40,45,50,50]
+        z: [0,0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,30,30,30,30,30,30,30,30,30,0,0]
+      height: [0,4,20,20,20,20,20,20,20,20,0,0]
+      texture: [2,2,2,2,2,2,2,2,2]
+    det6:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 75+xPos
+        y: 105+yPos
+        z: 2+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0,0]
+        y: [-72,-71,-65,-50,-40,0,10,20,25,30,30]
+        z: [0,0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,30,30,30,30,30,30,30,30,30,0,0]
+      height: [0,5,10,10,10,10,10,10,10,10,0,0]
+      texture: [2,2,2,2,2,2,2,2,2]
+    det8:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 85+xPos
+        y: 110+yPos
+        z: -25+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0,0]
+        y: [-85,-85,-85,-80,-40,0,10,10,10,10,10]
+        z: [-24,-24,-24,-22,-10,6,20,20,20,20,20,20]
+      width: [0,70,70,70,70,70,70,70,70,70,0,0]
+      height: [0,5,5,5,5,5,5,5,5,5,0,0]
+      texture: [4]
+      angle:90
+    det9:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 0+xPos
+        y: 90+yPos
+        z: 20+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0,0]
+        y: [-72,-71,-65,-60,-50,0,10,20,25,30,30]
+        z: [0,0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,30,30,30,30,30,30,30,30,30,0,0]
+      height: [0,4,20,20,20,20,20,20,20,20,0,0]
+      texture: [4]
+    Circle1:
+      section_segments: 14
+      offset:
+        x: 0+xPos
+        y: 0+zPos
+        z:-2-yPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-20,-15,0,10,21,26,28,34,32,31]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,14,14,14,14,14,14,12,10,0]
+      height: [0,14,14,14,14,14,14,12,10,0]
+      texture: [4,3,2,3,4,17,13,63,17]
+      propeller: false
+      angle:0
+      vertical:true
+#superlasers
+     Superlaser1:
+      section_segments: 15
+      offset:
+        x: 35+xPos
+        y: -805+yPos
+        z: 2+zPos
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-30,-40,-40,545,545]
+        z: [0,0,0,0,0]
+      width: [0,6,8,8,0]
+      height: [0,6,8,8,0]
+      texture: [12,17,13]
+      laser:
+        damage: [80,80]
+        rate: 1
+        type: 2
+        speed: [300,300]
+        recoil: 10
+        number: 50
+        error: 0
+#pipes
+    Pipes1:
+      section_segments: 8
+      offset:
+        x: 60+xPos
+        y: -10+yPos
+        z: 24+zPos
+      position:
+        x: [-20,-20,0,0,0,0,0]
+        y: [-70,-70,-40,0,20,50,50]
+        z: [0,-4,0,0,0,0,0]
+      width: [0,3,3,3,3,3,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 0
+      propeller: false
+      texture: [4]
+    Pipes2:
+      section_segments: 8
+      offset:
+        x: 70+xPos
+        y: -40+yPos
+        z: 0+zPos
+      position:
+        x: [-10,-10,0,-4,-6,-10,-10]
+        y: [-70,-70,-40,0,20,50,50]
+        z: [9,9,7,3,2,4,0]
+      width: [0,3,3,3,3,3,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 7
+      propeller: false
+      texture: [4]
+    Pipes3:
+      section_segments: 8
+      offset:
+        x: 60+xPos
+        y:0+yPos
+        z: -30+zPos
+      position:
+        x: [-37,-37,-15,-9,-11,-3,0]
+        y: [-70,-70,-40,0,20,50,50]
+        z: [9,9,7,7,5,3,0]
+      width: [0,3,3,3,3,3,0]
+      height: [0,3,3,3,3,3,0]
+      angle: -8
+      propeller: false
+      texture: [4]
+    Pipes4:
+      section_segments: 8
+      offset:
+        x: 27+xPos
+        y:4+yPos
+        z: 26+zPos
+      position:
+        x: [-21,-21,-20,0,0,0,0]
+        y: [-70,-70,-20,0,20,50,50]
+        z: [0,0,0,0,0,0,0]
+      width: [0,3,3,3,3,3,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 0
+      propeller: false
+      texture: [5]
+    Pipes5:
+      section_segments: 8
+      offset:
+        x: 58+xPos
+        y:-116+yPos
+        z: 31+zPos
+      position:
+        x: [-20,-20,-20,-40,-40,-40,-40]
+        y: [-55,-55,-20,0,20,50,50]
+        z: [0,0,0,0,0,0,-3,-3]
+      width: [0,3,3,3,3,3,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 0
+      propeller: false
+      texture: [5]
+    Pipes6:
+      section_segments: 8
+      offset:
+        x: 62+xPos
+        y:-116+yPos
+        z: 31+zPos
+      position:
+        x: [-20,-20,-20,-40,-40,-40,-40]
+        y: [-55,-55,-20,0,20,50,50]
+        z: [0,0,0,0,0,0,-3,-3]
+      width: [0,3,3,3,3,3,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 0
+      propeller: false
+      texture: [4,17,4,16,4]
+#reactor lines
+    fuelpipe1:
+      section_segments: 8
+      offset:
+        x: 25+xPos
+        y: -30+yPos
+        z: 25+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-70,-70,50,50,50,50,50]
+        z: [0,0,0,0,0,0,0]
+      width: [0,3,3,3,3,3,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 0
+      propeller: false
+      texture: [17]
+    fuelpipe2:
+      section_segments: 8
+      offset:
+        x: 50+xPos
+        y: -40+yPos
+        z: 1+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-70,-70,50,50,50,50,50]
+        z: [0,0,0,0,0,0,0]
+      width: [0,3,3,3,3,3,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 0
+      propeller: false
+      texture: [17]
+    fuelpipe3:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 11+xPos
+        y: -110+yPos
+        z: 30.8+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-70,-70,30,30,30,30,30]
+        z: [0,0,0,0,0,0,0]
+      width: [0,3,3,3,3,3,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 0
+      propeller: false
+      texture: [4]
+    fuelpipe4:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 14+xPos
+        y: -110+yPos
+        z: 30.64+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-70,-70,30,30,30,30,30]
+        z: [0,0,0,0,0,0,0]
+      width: [0,1.5,1.5,1.5,1.5,1.5,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 0
+      propeller: false
+      texture: [17]
+    fuelpipe5:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 34+xPos
+        y: 50+yPos
+        z: 31.64+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-70,-70,30,30,30,30,30]
+        z: [0,0,0,0,0,0,0]
+      width: [0,1.5,1.5,1.5,1.5,1.5,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 180
+      propeller: false
+      texture: [17]
+    fuelpipe6:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 34+xPos
+        y: 51+yPos
+        z: -31.64+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-70,-70,30,30,30,30,30]
+        z: [0,0,0,0,0,0,0]
+      width: [0,1.5,1.5,1.5,1.5,1.5,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 180
+      propeller: false
+      texture: [17]
+    fuelpipe7:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 27+xPos
+        y: 0+yPos
+        z: -24+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-70,-70,30,30,30,30,30]
+        z: [0,0,0,0,0,0,0]
+      width: [0,1.5,1.5,1.5,1.5,1.5,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 180
+      propeller: false
+      texture: [17]
+    fuelpipe8:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 0+xPos
+        y: 55+yPos
+        z: 33.2+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-64,-64,30,30,30,30,30]
+        z: [0,0,0,0,0,0,0]
+      width: [0,1.5,1.5,1.5,1.5,1.5,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 180
+      propeller: false
+      texture: [17]
+    fuelpipe9:
+      section_segments: [40,45,50,130,135,140,220,225,230,310,315,320]
+      offset:
+        x: 10+xPos
+        y: -135+yPos
+        z: 30.2+zPos
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-24,-24,30,30,30,30,30]
+        z: [0,0,0,0,0,0,0]
+      width: [0,1.5,1.5,1.5,1.5,1.5,0]
+      height: [0,3,3,3,3,3,0]
+      angle: 90
+      propeller: false
+      texture: [17]
+#docking ports
+    doc1:
+      section_segments: 20
+      offset:
+        x: 10+xPos
+        y:-220+yPos
+        z: 0+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [20,20,20,20,20,20,35,60,58,58]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,17,17,17,17,17,17,17,15,0]
+      height: [0,17,17,17,17,17,17,17,15,0]
+      texture: [18,18,17,4,4,15,8,63,18]
+      propeller: false
+      vertical:false
+      angle:90
+    doc2:
+      section_segments: 20
+      offset:
+        x: 10+xPos
+        y:-260+yPos
+        z: 0+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [20,20,20,20,20,20,35,60,58,58]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,17,17,17,17,17,17,17,15,0]
+      height: [0,17,17,17,17,17,17,17,15,0]
+      texture: [18,18,17,4,4,15,8,63,18]
+      propeller: false
+      vertical:false
+      angle:90
+#engines
+    Engine1:
+      section_segments: 14
+      offset:
+        x: 44+xPos
+        y: 95+yPos
+        z:0+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-20,-15,0,10,21,26,27,79,80,75]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,15,20,21,21,21,19,18,15,0]
+      height: [0,15,20,21,21,21,19,18,15,0]
+      texture: [4,3,2,3,4,17,13,3,17]
+      propeller: true
+    Engine2:
+      section_segments: 14
+      offset:
+        x: 67+xPos
+        y: 90+yPos
+        z: -10+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-20,-15,0,10,21,26,27,79,80,75]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,14,14,14,14,14,14,12,10,0]
+      height: [0,14,14,14,14,14,14,12,10,0]
+      texture: [4,3,2,3,4,17,12,3,17]
+      propeller: true
+    Engine3:
+      section_segments: 14
+      offset:
+        x: 11+xPos
+        y: 90+yPos
+        z: -33+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-20,-15,0,10,21,26,27,79,80,75]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,14,14,14,14,14,14,12,10,0]
+      height: [0,14,14,14,14,14,14,12,10,0]
+      texture: [4,3,2,3,4,17,12,3,17]
+      propeller: true
+    Engine4:
+      section_segments: 14
+      offset:
+        x: 79+xPos
+        y: 90+yPos
+        z: 8+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-20,-15,0,10,21,26,27,79,80,75]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,14,14,14,14,14,14,12,10,0]
+      height: [0,14,14,14,14,14,14,12,10,0]
+      texture: [4,3,2,3,4,17,4,3,17]
+      propeller: true
+    Engine5:
+      section_segments: 14
+      offset:
+        x: 0+xPos
+        y: 120+yPos
+        z:0+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-20,-15,0,10,21,26,27,79,80,75]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,15,20,21,21,21,19,18,15,0]
+      height: [0,15,20,21,21,21,19,18,15,0]
+      texture: [4,3,2,3,4,17,15,3,17]
+      propeller: true
+    Engine6:
+      section_segments: 14
+      offset:
+        x: 42+xPos
+        y: 90+yPos
+        z: 22+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-20,-15,0,10,21,26,27,79,80,75]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,14,14,14,14,14,14,12,10,0]
+      height: [0,14,14,14,14,14,14,12,10,0]
+      texture: [4,3,2,3,4,17,4,3,17]
+      propeller: true
+    Engine7:
+      section_segments: 14
+      offset:
+        x: 40+xPos
+        y: 90+yPos
+        z: -23+zPos
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0]
+        y: [-20,-15,0,10,21,26,27,79,80,75]
+        z: [0,0,0,0,0,0,0,0,0,0]
+      width: [0,14,14,14,14,14,14,12,10,0]
+      height: [0,14,14,14,14,14,14,12,10,0]
+      texture: [4,3,2,3,4,17,13,3,17]
+      propeller: true
+#Reactor
+    uwings:
+      section_segments: 17
+      offset:
+        x: 0+xPos
+        y: -130+yPos
+        z: 29+zPos
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-55,-50,0,50,55,55]
+        z: [2,2,1,-0,0,0]
+      width: [0,10,10,10,0]
+      height: [0,5,5,5,0]
+      texture: [5]
+    uwing1:
+      section_segments: [0,60,120,180]
+      offset:
+        x: -37
+        y: -200
+        z: 19
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-25,-20,40,70,110]
+        z: [10,4,0,0,0,0]
+      width: [0,5,25,25,0]
+      height: [0,10,15,15,0]
+      texture: [4]
+    uwings2:
+      section_segments: 8
+      offset:
+        x: 50
+        y: -320
+        z: 20
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-90,-100,40,80,90,100]
+        z: [0,0,0,0,0,0]
+      width: [0,10,25,20,0]
+      height: [0,5,25,20,0]
+      texture: [12,2,3,4]
+  wings:
+    lines1:
+      length: [10]
+      width: [5,5]
+      angle: [-15]
+      position: [-1,-5]
+      texture: [17]
+      doubleside: true
+      bump:
+        position: 0
+        size: 40
+      offset:
+        x:0+xPos
+        y: -80+yPos
+        z: 34+zPos
+    lines3:
+      length: [10]
+      width: [5,5]
+      angle: [-15]
+      position: [-1,-5]
+      texture: [17]
+      doubleside: true
+      bump:
+        position: 0
+        size: 40
+      offset:
+        x:0+xPos
+        y: -100+yPos
+        z: 34.4+zPos
+    lines4:
+      length: [10]
+      width: [5,5]
+      angle: [-15]
+      position: [-1,-5]
+      texture: [17]
+      doubleside: true
+      bump:
+        position: 0
+        size: 40
+      offset:
+        x:0+xPos
+        y: -110+yPos
+        z: 34.6+zPos
+    lines5:
+      length: [10]
+      width: [5,5]
+      angle: [-15]
+      position: [-1,-5]
+      texture: [17]
+      doubleside: true
+      bump:
+        position: 0
+        size: 40
+      offset:
+        x:0+xPos
+        y: -120+yPos
+        z: 35+zPos
+    lines6:
+      length: [10]
+      width: [5,5]
+      angle: [-15]
+      position: [-1,-5]
+      texture: [17]
+      doubleside: true
+      bump:
+        position: 0
+        size: 40
+      offset:
+        x:0+xPos
+        y: -90+yPos
+        z: 34.3+zPos
+    lines7:
+      length: [10]
+      width: [5,5]
+      angle: [-15]
+      position: [-1,-5]
+      texture: [17]
+      doubleside: true
+      bump:
+        position: 0
+        size: 40
+      offset:
+        x:0+xPos
+        y: -130+yPos
+        z: 35+zPos
+    lines8:
+      length: [10]
+      width: [5,5]
+      angle: [-15]
+      position: [-1,-5]
+      texture: [17]
+      doubleside: true
+      bump:
+        position: 0
+        size: 40
+      offset:
+        x:0+xPos
+        y: -140+yPos
+        z: 35.2+zPos
+    lines9:
+      length: [10]
+      width: [5,5]
+      angle: [-15]
+      position: [-1,-5]
+      texture: [17]
+      doubleside: true
+      bump:
+        position: 0
+        size: 40
+      offset:
+        x:0+xPos
+        y: -150+yPos
+        z: 35.4+zPos
+    line10:
+      length: [10]
+      width: [5,5]
+      angle: [-15]
+      position: [-1,-5]
+      texture: [17]
+      doubleside: true
+      bump:
+        position: 0
+        size: 40
+      offset:
+        x:0+xPos
+        y: -160+yPos
+        z: 35.6+zPos
+    lines11:
+      length: [10]
+      width: [5,5]
+      angle: [-15]
+      position: [-1,-5]
+      texture: [17]
+      doubleside: true
+      bump:
+        position: 0
+        size: 40
+      offset:
+        x:0+xPos
+        y: -170+yPos
+        z: 35.8+zPos

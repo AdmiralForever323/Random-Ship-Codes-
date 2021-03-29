@@ -1,0 +1,147 @@
+return model =
+  name: 'X-81'
+  level: 6
+  model: 6
+  size: 1.5
+  specs:
+    shield:
+      capacity: [200,300]
+      reload: [5,7]
+    generator:
+      capacity: [1400,1500]
+      reload: [2200,2300]
+    ship:
+      mass: 250
+      speed: [100,125]
+      rotation: [70,90]
+      acceleration: [110,130]
+  bodies:
+    main:
+      section_segments: 12
+      offset:
+        x: 0
+        y: 6
+        z: 5
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0]
+        y: [-104,-98,-93,-85,-75,-60,-30,0,40,80,70]
+        z: [0,0,0,0,0,0,0,0,0,0,9]
+      width: [0,3,6,11,15,20,26,26,25,20,2]
+      height: [0,3,7,9,11,15,15,15,15,15,0]
+      texture: [6,4,63,3,2,10,3,4,13,17]
+      propeller: true
+    cockpit:
+      section_segments: 9
+      offset:
+        x: 0
+        y: -23
+        z: 11
+      position:
+        x: [0,0,0,0,0,0]
+        y: [-50,-40,-10,20,5]
+        z: [0,0,0,0,0,0]
+      width: [0,8,12,5,0]
+      height: [0,10,15,5,0]
+      texture: [7,9,4,9,9]
+    wingendtop:
+      section_segments: 10
+      offset:
+        x: 65
+        y: 76
+        z: 26.5
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-55,-60,-5,0,20,30,30]
+        z: [0,0,0,0,0,0,0]
+      width: [0,4,4,7,7,5,0]
+      height: [0,4,4,7,7,5,0]
+      texture: [12,3,13,4,63,17]
+      angle: 0
+      propeller:true
+    wingendbottom:
+      section_segments: 8
+      offset:
+        x: 80
+        y: 15
+        z: -13
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [5,-60,-5,0,20,30,30]
+        z: [0,0,0,0,0,0,0]
+      width: [0,4,4,7,7,5,0]
+      height: [0,4,4,7,7,5,0]
+      texture: [12,3,1,63,1,17]
+      angle: 0
+      propeller: true
+    spoilerend:
+      section_segments: 10
+      offset:
+        x: 30
+        y: 100
+        z: 50
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-45,-50,-5,0,20,30,26]
+        z: [0,0,0,0,0,0,0]
+      width: [0,4,4,11,11,9,0]
+      height: [0,4,4,11,11,9,0]
+      texture: [12,3,18,4,63,17]
+      angle: 0
+      propeller: true
+  wings:
+    winglet:
+      doubleside: true
+      offset:
+        x: 0
+        y: -29
+        z: 1
+      length: [40]
+      width: [45,20]
+      angle: [10]
+      position: [0,30]
+      texture: [63]
+      bump:
+        position: 50
+        size: 15
+    spoiler:
+      doubleside: true
+      offset:
+        x: 0
+        y: 90
+        z: 1
+      length: [60]
+      width: [45,20]
+      angle: [60]
+      position: [0,20]
+      texture: [18]
+      bump:
+        position: 45
+        size: 15
+    main:
+      doubleside: true
+      offset:
+        x: 10
+        y: 40
+        z: 0
+      length: [60]
+      width: [83,31]
+      angle: [20]
+      position: [10,46]
+      texture: [11]
+      bump:
+        position: 40
+        size: 10
+    main2:
+      doubleside: true
+      offset:
+        x: 10
+        y: 10
+        z: 5
+      length: [70]
+      width: [75,31]
+      angle: [-12]
+      position: [40,20]
+      texture: [11]
+      bump:
+        position: 45
+        size: 10

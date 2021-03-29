@@ -1,0 +1,97 @@
+return model =
+  name: 'Idk what this thing is'
+  level: 7
+  model: 4
+  size: 4.5
+  specs:
+    shield:
+      capacity: [800,800]
+      reload: [17,17]
+    generator:
+      capacity: [350,350]
+      reload: [175,175]
+    ship:
+      mass: 800
+      speed: [40,40]
+      rotation: [20,20]
+      acceleration: [150,150]
+      dash:
+        rate: 2
+        burst_speed: [160,200]
+        speed: [120,150]
+        acceleration: [70,70]
+        initial_energy: [50,75]
+        energy: [20,30]
+  bodies:
+    arm:
+      section_segments: 12
+      angle: 0
+      offset:
+        x: 36
+        y: -40
+        z: 0
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0]
+        y: [-70,-70,-20,-15,-10,10,60,70,85,90,85]
+        z: [0,0,0,0,0,0,0,0,0,0,0]
+      width: [0,10,10,10,12,12,12,12,12,11,0]
+      height: [0,10,12,12,12,12,12,12,12,11,0]
+      texture: [4,8,63,4,10,11,4,63,3,17]
+      propeller: true
+    front:
+      section_segments: 10
+      offset:
+        x: 0
+        y: -31
+        z: 0
+      position:
+        x: [0,0,0,0,0]
+        y: [-90,-85,-70,-60,-20]
+        z: [0,0,0,0,0]
+      width: [0,50,55,10,12]
+      height: [0,15,18,8,12]
+      texture: [7,63,4,4,4]
+      propeller: false
+      angle:0
+    cockpit:
+      section_segments: 12
+      offset:
+        x: 0
+        y: -40
+        z: 0
+      position:
+        x: [0,0,0,0,0,0,0,0,0,0,0]
+        y: [-56,-48,-35,-15,0,35,55,85,89]
+        z: [0,0,0,0,0,0,0,0,0]
+      width: [0,12,19,25,25,25,25,25,0]
+      height: [0,12,19,25,25,25,25,25,0]
+      texture: [1,1,1,1,1,1,1,1]
+      angle:0
+    topcockpit:
+      section_segments: 12
+      offset:
+        x: 0
+        y: -53
+        z: 5
+      position:
+        x: [0,0,0,0,0,0,0]
+        y: [-30,-15,0,20,40]
+        z: [-10,-6,0,5,16]
+      width: [0,12,13,11,0]
+      height: [0,10,12,10,0]
+      texture: [9,9,9,4]
+    bumpers:
+      section_segments: 12
+      offset:
+        x: 5
+        y: 30
+        z: 0
+      position:
+        x: [10,10,10,10,10,10,10]
+        y: [-85,-80,-40,0,20,50,45]
+        z: [0,0,0,0,0,0,0]
+      width: [0,15,15,15,15,13,0]
+      height: [0,19,20,20,20,20,0]
+      texture: [4,63,18,4,3,17]
+      angle: 0
+      propeller:true
